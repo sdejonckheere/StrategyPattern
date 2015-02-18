@@ -47,6 +47,7 @@
     <Compile Include="Duck.cs" />
     <Compile Include="Flyable.cs" />
     <Compile Include="FlyNoWay.cs" />
+    <Compile Include="FlyRocket.cs" />
     <Compile Include="FlyWithWings.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

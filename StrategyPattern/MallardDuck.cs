@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    public class MallardDuck : Duck
+    class MallardDuck : Duck
     {
-    
-        public int MallardDuck{
+        
+        
 
-            set { leeftijd = value; }
-
-        }
         public void display(){
 
             System.Diagnostics.Debug.WriteLine("I am a real mallard duck!");

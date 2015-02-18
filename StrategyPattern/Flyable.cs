@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    interface IFlyable
+    interface FlyBehavior
     {
 
-        public void Fly()
-        {
-            
-        }
-    
+        void Fly();
+       
     }
 }

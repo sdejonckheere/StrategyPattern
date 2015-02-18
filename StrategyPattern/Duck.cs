@@ -9,7 +9,7 @@ namespace StrategyPattern
     abstract class Duck
     {
 
-        IFlyable FlyBehaviour;
+        public FlyBehavior FlyBehaviour;
 
 
         public void performFly()
@@ -31,6 +31,10 @@ namespace StrategyPattern
             System.Diagnostics.Debug.WriteLine("Swimming");
 
         }
-    
+        public void setFlyBehaviour(FlyBehavior i)
+        {
+            this.FlyBehaviour = i;
+        }
+      
     }
 }

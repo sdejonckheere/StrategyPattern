@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    class FlyNoWay : FlyBehavior
+    class FlyRocket : FlyBehavior
     {
-
         public void Fly()
         {
-            System.Diagnostics.Debug.WriteLine("I cant fly :(");
+            System.Diagnostics.Debug.WriteLine("Rocketpower");
         }
     }
 }

@@ -16,6 +16,14 @@ namespace StrategyPattern
         {
             InitializeComponent();
 
+            Duck myDuck = new MallardDuck();
+
+            myDuck.setFlyBehaviour(new FlyWithWings());
+            myDuck.performFly();
+            myDuck.setFlyBehaviour(new FlyNoWay());
+            myDuck.performFly();
+            myDuck.setFlyBehaviour(new FlyRocket());
+            myDuck.performFly();
         }
     }
 }
